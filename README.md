@@ -1,5 +1,8 @@
 # Overview
 This is a basic example to show PouchDB usage with Angular and Ionic. 
+In general, Database queries translating into RESTful HTTP Using an API service. But,  CouchDB throws this out the window by daring us to talk to the database directly through a little protocol HTTP, from our client-side apps.
+CouchDB's killer feature Sync was designed from the bottom-up to enable easy synchronization between different databases.
+special protocol, no special drivers: just REST and HTTP. You can communicate with CouchDB entirely through your browser, curl, or a REST client like Postman.
 
 But...
 This version will run after you have ran ```npm install```
@@ -14,20 +17,4 @@ If you were to start from scratch, there are several steps that would need to be
 * Angular 8
 * Ionic 4.7.x
 * PouchDB 7.x
-
-
-## Getting started with this repo
-  1. Clone this repo
-  2. ```npm i```
-  3. ```ionic serve```
-
-
-### Tab 1
-* Uses a DB named ```my-notes```
-* Enter a note in the field and press Enter
-
-### Tab 2
-* Uses a DB named ```kangaroo```
-* Adds a document using the interface ```Entry``` as defined in tab2.page.ts
-
 
